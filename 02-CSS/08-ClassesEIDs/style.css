@@ -1,0 +1,13 @@
+/* No css as Classes são indexadas apartir do . */
+.paragraph {
+    color: #bfbcf0;
+    font-size: 25px;
+    background-color: black;
+    padding: 20px;
+}
+
+#exclusive-title{
+    background-color: rgb(24, 62, 63);
+    color: aquamarine;
+    padding: 20px;
+}
