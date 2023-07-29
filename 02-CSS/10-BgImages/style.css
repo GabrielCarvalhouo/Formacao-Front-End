@@ -1,0 +1,33 @@
+/* Adicionando uma imagem de fundo ao titulo, funciona também para outras propriedades */
+
+.background-image {
+    color: #fff;
+    background-image: url(../../01-HTML/08-imagensHTML/img/city.jpg);
+}
+
+/* Ajustando a posição da imagem de fundo  */
+
+.background-image {
+    background-position: center;
+    background-size: cover;
+}
+
+/* Ajustando o tamanho das imagens */
+
+.bg-image-center, .bg-image-adjust {
+    height: 200px;
+    width: 200px;
+    background-image: url(../../01-HTML/08-imagensHTML/img/bridge.jpg);
+}
+
+/* o bg position center vai apenas centralizar o contexto todo, a imagem toda por tanto perdendo boa parte da visualização se a imagem for maior que o bloco que esta inserida */
+
+.bg-image-center {
+    background-position: center;
+}
+
+/* Já no bg size cover a imagem vai ser cortada as partes que não se encaixam no bloco determinado cortando assim um pouco de cima e um pouco de baixo da imagem mas mantendo a proporção total */
+
+.bg-image-adjust {
+    background-size: cover;
+}

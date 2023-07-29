@@ -10,3 +10,50 @@
 
 /* Se um valor for repetido 6 vezes, podemos escrever a cor de forma mais simples Exemplo: */
 
+.color-simple-hex {
+    color: #333;
+}
+
+/* Os valores rgb são um pouco diferentes sendo red green e blue indo de 0 a 255 mais fraco ao mais forte */
+
+.color-simple-rgb {
+    color: rgb(0, 255, 0);
+}
+
+/* Somando esses valores podemos criar cores diversas e novas, mais claras ou escuras */
+
+.color-mixed-rgb {
+    color: rgb(199, 21, 47);
+}
+
+/* rgba a diferença para o rgb é este A no final que significa alpha que é a opacidade da cor */
+
+.color-rgba {
+    color: rgba(12, 23, 92, 0.65);
+}
+
+/* hsl a diferença dele para os outros métodos é que ele trabalha com os ajuste de cor de acordo com a saturação e o brilho como a descrição hue saturation lightness */
+
+.color-hsl {
+    color: hsl(32, 100%, 51%);
+}
+
+/* Usando o background color adicionamos uma cor de fundo para nossa tag, funciona recebendo os mesmos atributos da color para seleção de cores */
+
+.color-bg {
+    background-color: #55a398;
+}
+
+/* Utilizando o opacity podemos remover a opacidade de fundo do nosso background porém ele acaba alterando a cor dos elementos filhos se você não declarar */
+
+.color-bg-opacity {
+    background-color: aquamarine;
+    opacity: 0.5;
+}
+
+/* para acabar com isso podemos alterar a opacidade de fundo com o rgba em vez do opacity */
+
+.color-bg-opacity-rgba {
+    background-color: rgba(90, 120, 20, 0.2);
+}
+
