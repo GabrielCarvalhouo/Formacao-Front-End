@@ -1,0 +1,9 @@
+/* Box model é uma entidade que é criada em todo elemento do HTML,
+sendo elas 4 partes, altura e largura, padding, border e margin.
+Podendo ser alteradas posteriormente no css, alguns elementos já vem com essas regras definidas */
+
+.height-width {
+    height: 200px;
+    width: 100px;
+    background-color: aqua;
+}
