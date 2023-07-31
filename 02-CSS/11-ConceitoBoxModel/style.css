@@ -7,3 +7,19 @@ Podendo ser alteradas posteriormente no css, alguns elementos já vem com essas 
     width: 100px;
     background-color: aqua;
 }
+
+.height-width2 {
+    height: 200px;
+    background-color: rgb(37, 48, 48);
+}
+
+/* padding, borda entre o conteudo e a borda do elemento */
+
+.padding {
+    padding: 20px;
+    background-color: blue;
+}
+
+.sempadding {
+    background-color: aquamarine;
+}
