@@ -45,3 +45,25 @@ Podendo ser alteradas posteriormente no css, alguns elementos já vem com essas 
     /* Usamos o box sizing quando queremos limitar o tamanho do width no padrão adicionado anteriormente então ele subtrai o valor adicionado em padding do width mas mantém o tamanho de 400px no total */
     box-sizing: border-box;
 }
+
+.border {
+    /* a borda é formada em volta do padding do elemento */
+    border: 2px solid #000;
+}
+
+.borderLadosIndividuais {
+    border-left: #000 5px;
+    border-bottom: rgb(58, 58, 167) 10px;
+}
+
+.borda-arredondada {
+    border: 10px solid #000;
+    border-radius: 5px;
+}
+
+.margin {
+    margin: 10px 5px 20px 10px;
+    background-color: #000;
+    color: #fff;
+}
+
