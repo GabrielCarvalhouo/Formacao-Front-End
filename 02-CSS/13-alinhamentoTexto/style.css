@@ -1,0 +1,15 @@
+.text-aligned {
+    /* alinha o texto na horizontal */
+    text-align: center;
+    /* transforma o texto em caixa alta ou baixa */
+    text-transform: uppercase;
+    /* define o espaços entre as letras */
+    letter-spacing: 0.8rem;
+    /*  */
+}
+.div-texto {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine; 
+    
+}
