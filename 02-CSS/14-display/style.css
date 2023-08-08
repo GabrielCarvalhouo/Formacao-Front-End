@@ -1,0 +1,105 @@
+/* Faz os elementos se alinharem uns ao lado dos outros */
+
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+/* display block são sempre posicionados abaixo do elemento anterior ocupando 100% da largura do elemento pai */
+
+.block {
+    background-color: #dd2d;
+    display: block;
+}
+
+/* display none permite ao programador esconder elementos sem apagar eles do código */
+
+.invisible {
+    display: none;
+}
+
+/* positions principais são relative, fixed, absolute, stick */
+/* O valor padrão dos elementos é o static */
+
+
+/* Com o position relative podemos alterar o local que ele está e sobrepor outros elementos */
+
+.position-relative {
+    position: relative;
+    background-color: #244;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 200px;
+}
+
+/* Absolute também aceita as regras de posicionamento mas pode ser uma solução ou um problema devido a posição por padrão já sobrepor outros elementos entçao tem que ser mais trabalhado */
+.position-absolute {
+    position: absolute;
+    background-color: #244;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+/* Utilizando os metodos juntos podemos delimitar o espaço que o absolute vai ocupar e podemos mexer com esses elementos livrimente pelo container delimitado, lembrando que para o absolute funcionar dentro deste container ele precisa estar definido com uma posição relative caso contrario o item que definirmos como absolute vai receber o body como elemento pai */
+
+.position-relative-absolute {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 25px;
+    position: relative;
+}
+
+.absolute1,
+.absolute2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+/* Com o z-index podemos definir qual elemento está a frente ou atrás do outro neste caso o elemento azul vai sobrepor o vermelho */
+.absolute1 {
+    z-index: 2;
+    background-color: rgb(10, 26, 255);
+    left: 10px;
+    top: 10px;
+}
+
+.absolute2 {
+    background-color: rgb(156, 45, 45);
+    left: 22px;
+    top: 22px;
+}
+
+/* position fixed mesmo após o scroll o elemento permanece na mesma posição, estando sempre presente utilizamos normalmente em casos de menus e headers */
+
+.fixed {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: #fff;
+    top: 25px;
+    right: 25px;
+    position: fixed;
+
+}
+
+/* Position stick também faz o elemento ficar fixo na tela mas não possui só este comportamento, quando o elemento volta para sua posição original ele volta como relative */
+
+.sticky {
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    background-color: #f04040;
+    top: 25px;
+    right: 25px;
+    position: sticky;
+}
